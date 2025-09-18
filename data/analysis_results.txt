@@ -1,0 +1,47 @@
+========== MISSING DATA REPORT ==========
+
+
+After Cleaning:
+Country                               0
+Year                                  0
+Disease Name                          0
+Disease Category                      0
+Prevalence Rate (%)                   0
+Incidence Rate (%)                    0
+Mortality Rate (%)                    0
+Age Group                             0
+Gender                                0
+Population Affected                   0
+Healthcare Access (%)                 0
+Doctors per 1000                      0
+Hospital Beds per 1000                0
+Treatment Type                        0
+Average Treatment Cost (USD)          0
+Availability of Vaccines/Treatment    0
+Recovery Rate (%)                     0
+DALYs                                 0
+Improvement in 5 Years (%)            0
+Per Capita Income (USD)               0
+Education Index                       0
+Urbanization Rate (%)                 0
+Income_Norm                           0
+Education_Norm                        0
+Urbanization_Norm                     0
+Disease Type                          0
+Income Group                          0
+dtype: int64
+
+========== OUTLIER REPORT ==========
+Lower Bound: -2512.50, Upper Bound: 7507.50
+Outliers Detected: 0 rows
+
+========== REGRESSION RESULTS ==========
+Coefficients: [ 1.86240379e-05 -4.99343787e+00 -7.19940142e-02]
+Intercept: 2505.41
+R2 Score: 0.0000014027 (scientific: 1.40e-06)
+
+========== HEALTHCARE INFRASTRUCTURE CORRELATIONS ==========
+Healthcare Access vs DALYs:
+  Correlation: 0.0001, p-value: 9.0010e-01
+Hospital Beds per 1000 vs DALYs:
+  Correlation: -0.0007, p-value: 4.9796e-01
